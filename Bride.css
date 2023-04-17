@@ -1,0 +1,147 @@
+* {
+  font-family: source-sans-pro, Dancing Script, Helvetica, Arial, sans-serif, sans-serif; 
+  font-weight: 300; 
+  transition: All 0.25s ease-in-out; 
+  -webkit-transition: All 0.5s ease-in-out; 
+  -moz-transition: All 0.5s ease-in-out; 
+  -ms-transition: All 0.5s ease-in-out; 
+  -o-transition: All 0.5s ease-in-out; 
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url('A.jpg');
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+}
+h1
+{
+  font-size: 22px;
+  top:0;
+  position: absolute;                     
+  left:  1350px;
+  color: #F60B8A;
+  font-family: Pacifico;
+  font-weight: 30px;
+}
+span
+{
+  font-size: 22px;
+  top: 14px;
+  position: absolute;
+  left:  1410px;
+  color: #29C5F6;
+  font-family: Pacifico;
+  font-weight: 30px;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+  .emp-profile{ 
+   padding: 3%;
+    margin-top:5%;
+    margin-bottom: 8%;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+.profile-img{
+    text-align: center;
+}
+.profile-img img{
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    left:630px;
+    top: 200px;
+}
+
+.profile-head h3{
+    color: #F60B8A;
+    font-family: Dancing Script;
+    font-weight: 120px;
+    font-size: 40px;
+}
+.profile-head h4{
+    color: #333;
+    font-family: Dancing Script;
+    font-weight: 120px;
+    font-size: 30px;
+}
+
+.proile-rating span{
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile-work{
+    position: absolute;
+    left:1000px;
+    padding: 14%;
+    margin-top: -15%;
+}
+.profile-work p{
+    font-size: 12px;
+    color: #818182;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.profile-work a{
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 14px;
+}
+.profile-work ul{
+    list-style: none;
+}
+.profile-tab label{
+    font-weight: 600;
+}
+.profile-tab p{
+    font-weight: 600;
+    color: #0062cc;
+}
+footer {
+    background-color: #222;
+    color: #dcdcdc;
+    font-size: 18px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 20px 0;
+}
